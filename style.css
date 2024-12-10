@@ -89,7 +89,7 @@ ul {
 }
 
 .hero-left p {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     color: #555;
     font-size: 1rem;
 }
@@ -101,10 +101,13 @@ ul {
     border: none;
     border-radius: 5px;
     font-size: 1rem;
-    cursor: pointer;
+    margin-left: 40px;
+    transition: all 0.5s ease;
+    transform-origin: 100px 200px;
 }
 
 .hero-left button:hover {
+    transform: scale(1.1) rotate(-5deg);
     background-color: #0056b3;
 }
 
